@@ -113,7 +113,7 @@ input, select, textarea {
 		font-size: 16pt;
 	}
 
-		@media screen and (max-width: 1640px) {
+		@media screen and (max-width: 1680px) {
 
 			html {
 				font-size: 12pt;
@@ -135,8 +135,8 @@ input, select, textarea {
 	}
 
 	body, input, select, textarea {
-		font-family: "Roboto", Helvetica, sans-serif;
-		font-weight: 400;
+		font-family: "Helvetica",Roboto, sans-serif;
+		font-weight: 100;
 		line-height: 1.65;
 		font-size: 1em;
 		color: #aaa;
@@ -167,14 +167,14 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 1.25em 0;
+		margin: 0 0 1em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
-		font-weight: 400;
-		line-height: 1.25;
+		font-weight: 100;
+		line-height: 0;
 		margin: 0 0 0.5em 0;
-		color: #555;
+		color: #666666;
 	}
 
 		h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
@@ -183,7 +183,7 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.25em;
+		font-size: 2.25em;
 	}
 
 	h3 {
@@ -581,44 +581,7 @@ input, select, textarea {
 		margin: 0 0 1.25em 0;
 	}
 
-/* Icon */
 
-	.icon {
-		text-decoration: none;
-		border-bottom: none;
-		position: relative;
-	}
-
-		.icon:before {
-			-moz-osx-font-smoothing: grayscale;
-			-webkit-font-smoothing: antialiased;
-			display: inline-block;
-			font-style: normal;
-			font-variant: normal;
-			text-rendering: auto;
-			line-height: 1;
-			text-transform: none !important;
-			font-family: 'Font Awesome 5 Free';
-			font-weight: 400;
-		}
-
-		.icon > .label {
-			display: none;
-		}
-
-		.icon:before {
-			line-height: inherit;
-		}
-
-		.icon.solid:before {
-			font-weight: 900;
-		}
-
-		.icon.brands:before {
-			font-family: 'Font Awesome 5 Brands';
-		}
-
-/* List */
 
 	ol {
 		list-style: decimal;
@@ -924,27 +887,7 @@ input, select, textarea {
 			font-weight: -0;
 		}
 
-/* Footer */
 
-	#footer {
-		padding: 2.25em 2.25em 1em 2.25em ;
-	}
-
-		#footer .copyright {
-			list-style: none;
-			padding: 0;
-		}
-
-			#footer .copyright li {
-				display: inline-block;
-				font-size: 0.8em;
-				margin-left: 0.35em;
-				padding: 0;
-			}
-
-				#footer .copyright li:first-child {
-					margin-left: 0;
-				}
 
 /* Thumbnails */
 
