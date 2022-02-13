@@ -31,50 +31,19 @@
 
 	// Scrolly links.
 		$('.scrolly').scrolly({
-			speed: 2000
+			speed: 500
 		});
 
 	// Dropdowns.
 		$('#nav > ul').dropotron({
 			alignment: 'right',
-			hideDelay: 350
+			hideDelay: 50
 		});
 
-	// Nav.
-
-		// Title Bar.
-			$(
-				'<div id="titleBar">' +
-					'<a href="#navPanel" class="toggle"></a>' +
-					'<span class="title">' + $('#logo').html() + '</span>' +
-				'</div>'
-			)
-				.appendTo($body);
-
-		// Panel.
-			$(
-				'<div id="navPanel">' +
-					'<nav>' +
-						$('#nav').navList() +
-					'</nav>' +
-				'</div>'
-			)
-				.appendTo($body)
-				.panel({
-					delay: 500,
-					hideOnClick: true,
-					hideOnSwipe: true,
-					resetScroll: true,
-					resetForms: true,
-					side: 'left',
-					target: $body,
-					visibleClass: 'navPanel-visible'
-				});
 
 	// Parallax.
 	// Disabled on IE (choppy scrolling) and mobile platforms (poor performance).
-		if (browser.name == 'ie'
-		||	browser.mobile) {
+		if (browser.name == 'ie') {
 
 			$.fn._parallax = function() {
 
@@ -118,8 +87,8 @@
 
 					};
 
-					breakpoints.on('<=medium', off);
-					breakpoints.on('>medium', on);
+					breakpoints.on('<=small', on);
+					breakpoints.on('>small', on);
 
 				});
 
