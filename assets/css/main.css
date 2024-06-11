@@ -122,7 +122,7 @@ input, select, textarea {
 
 	strong, b {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 400;
 	}
 
 	em, i {
@@ -130,12 +130,12 @@ input, select, textarea {
 	}
 
 	p {
-		margin: 0 0 2em 0;
+		margin: 0 0 1.5em 0;
 	}
 
 	h1, h2, h3, h4, h5, h6 {
 		color: #ffffff;
-		font-weight: 300;
+		font-weight: 500;
 		line-height: 1em;
 		margin: 0 0 1em 0;
 	}
@@ -159,6 +159,8 @@ input, select, textarea {
 	h4 {
 		font-size: 1.1em;
 		line-height: 1.5em;
+		font-weight: 300;
+		color: #eeeddd;
 	}
 
 	h5 {
@@ -3083,7 +3085,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			background: rgba(23, 24, 32, 0.95);
+			background: rgba(23, 24, 32);
 			border-style: solid;
 			opacity: 1;
 			position: absolute;
@@ -3139,23 +3141,23 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #e44c65;
+			border-color: #ffffff;
 		}
 
 		.spotlight.style2 .content {
-			border-color: #5480f1;
+			border-color: #ffffff;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #6FCF97;
+			border-color: #ffffff;
 		}
 
 		.spotlight.style4 .content {
-			border-color: #F2994A;
+			border-color: #ffffff;
 		}
 
 		.spotlight.style5 .content {
-			border-color: #9B51E0;
+			border-color: #ffffff;
 		}
 
 
@@ -3229,7 +3231,7 @@ input, select, textarea {
 			.wrapper.style2 .button:hover,
 			.wrapper.style2 .button:active {
 				background-color: rgba(255, 255, 255, 0.075) !important;
-				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.5) !important;
+				box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0) !important;
 				color: #ffffff !important;
 			}
 
@@ -3276,7 +3278,7 @@ input, select, textarea {
 			-webkit-transition: -webkit-transform 1s ease, opacity 1s ease;
 			-ms-transition: -ms-transform 1s ease, opacity 1s ease;
 			transition: transform 1s ease, opacity 1s ease;
-			opacity: 1;
+			opacity: 0;
 		}
 
 		.wrapper.fade-down.inactive > .container {
@@ -3322,9 +3324,9 @@ input, select, textarea {
 /* Dropotron */
 
 	.dropotron {
-		background: rgba(39, 40, 51, 0.965);
+		background: rgba(39, 40, 51, 0);
 		border-radius: 4px;
-		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0.125);
+		box-shadow: 0 0.075em 0.35em 0 rgba(0, 0, 0, 0);
 		list-style: none;
 		margin-top: calc(-0.25em + 1px);
 		min-width: 12em;
@@ -3338,7 +3340,7 @@ input, select, textarea {
 
 			.dropotron > li a, .dropotron > li span {
 				border: 0;
-				color: rgba(255, 255, 255, 0.75);
+				color: rgba(255, 255, 255, 0);
 				display: block;
 				padding: 0.1em 1em;
 				text-decoration: none;
@@ -3480,10 +3482,6 @@ input, select, textarea {
 		}
 
 		#banner:after {
-			background-image: -moz-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -webkit-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: -ms-linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
-			background-image: linear-gradient(top, rgba(23, 24, 32, 0.95), rgba(23, 24, 32, 0.95)), url("images/overlay.png");;
 			content: '';
 			display: block;
 			height: 100%;
@@ -3497,7 +3495,7 @@ input, select, textarea {
 			display: inline-block;
 			margin-right: 1%;
 			max-width: 95%;
-			padding: 6em;
+			padding: 3em;
 			position: relative;
 			text-align: right;
 			vertical-align: middle;
@@ -3817,7 +3815,7 @@ input, select, textarea {
 		/* Spotlight */
 
 			.spotlight {
-				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0);
 			}
 
 				.spotlight .image.main {
@@ -3844,7 +3842,7 @@ input, select, textarea {
 		/* Banner */
 
 			#banner {
-				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0.25);
+				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0);
 				min-height: calc(100vh - 44px);
 			}
 
