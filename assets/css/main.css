@@ -204,7 +204,7 @@ input, select, textarea {
 
 	code {
 		background: rgba(255, 255, 255, 0.075);
-		border-radius: 4px;
+		border-radius: 0px;
 		font-family: "Courier New", monospace;
 		font-size: 0.9em;
 		margin: 0 0.25em;
@@ -2473,7 +2473,7 @@ input, select, textarea {
 
 		.icon.major {
 			background: #272833;
-			border-radius: 100%;
+			border-radius: 0%;
 			cursor: default;
 			display: inline-block;
 			height: 6em;
@@ -2512,7 +2512,7 @@ input, select, textarea {
 /* Image */
 
 	.image {
-		border-radius: 4px;
+		border-radius: 0px;
 		border: 0;
 		display: inline-block;
 		position: relative;
@@ -2532,7 +2532,7 @@ input, select, textarea {
 		}
 
 		.image img {
-			border-radius: 4px;
+			border-radius: 0px;
 			display: block;
 		}
 
@@ -3124,7 +3124,7 @@ input, select, textarea {
 		}
 
 		.spotlight.left .content, .spotlight.right .content {
-			height: 101%;
+			height: 100%;
 			padding: 6em 3em;
 			top: 0;
 			width: 28em;
@@ -3141,23 +3141,23 @@ input, select, textarea {
 		}
 
 		.spotlight.style1 .content {
-			border-color: #ffffff;
+			border-color: #272833;
 		}
 
 		.spotlight.style2 .content {
-			border-color: #ffffff;
+			border-color: #272833;
 		}
 
 		.spotlight.style3 .content {
-			border-color: #ffffff;
+			border-color: #272833;
 		}
 
 		.spotlight.style4 .content {
-			border-color: #ffffff;
+			border-color: #272833;
 		}
 
 		.spotlight.style5 .content {
-			border-color: #ffffff;
+			border-color: #272833;
 		}
 
 
@@ -3623,7 +3623,7 @@ input, select, textarea {
 		/* Spotlight */
 
 			.spotlight {
-				box-shadow: 0 0.125em 0.5em 0 rgba(0, 0, 0, 0);
+				box-shadow: 0em 0em 0 rgba(0, 0, 0, 0);
 			}
 
 				.spotlight .image.main {
