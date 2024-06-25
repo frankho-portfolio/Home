@@ -3250,7 +3250,7 @@ input, select, textarea {
 				-webkit-transform: rotate(45deg);
 				-ms-transform: rotate(45deg);
 				transform: rotate(45deg);
-				background: #272833;
+				background: #17181e;
 				content: '';
 				display: block;
 				height: 1em;
@@ -3269,7 +3269,7 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #272833;
+		background-color: #20272c;
 		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
