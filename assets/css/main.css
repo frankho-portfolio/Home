@@ -83,7 +83,7 @@ input, select, textarea {
 	}
 
 	html, body {
-		background: #272833;
+		background: #1c1d26;
 	}
 
 	body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -3269,7 +3269,7 @@ input, select, textarea {
 
 	#banner {
 		background-attachment: fixed;
-		background-color: #1d1e27;
+		background-color: #1c1d26;
 		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
