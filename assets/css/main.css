@@ -157,19 +157,20 @@ input, select, textarea {
 	}
 
 	h4 {
-		font-size: 1.1em;
+		font-size: 1.3em;
 		line-height: 1.5em;
-		font-weight: 300;
+		font-weight: 500;
 		color: #eeeddd;
 	}
 
 	h5 {
-		font-size: 0.9em;
+		font-size: 1.0em;
+		font-weight: 700;
 		line-height: 1.5em;
 	}
 
 	h6 {
-		font-size: 0.7em;
+		font-size: 1.0em;
 		line-height: 1.5em;
 	}
 
@@ -3270,7 +3271,6 @@ input, select, textarea {
 	#banner {
 		background-attachment: fixed;
 		background-color: #1c1d26;
-		background-image: url("../../images/banner.jpg");
 		background-position: center center;
 		background-size: cover;
 		box-shadow: 0 0.25em 0.5em 0 rgba(0, 0, 0, 0.25);
@@ -3305,7 +3305,7 @@ input, select, textarea {
 			max-width: 95%;
 			padding: 3em;
 			position: relative;
-			text-align: right;
+			text-align: middle;
 			vertical-align: middle;
 			z-index: 1;
 		}
