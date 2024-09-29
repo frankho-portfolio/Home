@@ -152,7 +152,7 @@ input, select, textarea {
 	}
 
 	h3 {
-		font-size: 1.35em;
+		font-size: 1.8em;
 		line-height: 1.5em;
 	}
 
@@ -171,6 +171,7 @@ input, select, textarea {
 
 	h6 {
 		font-size: 1.0em;
+		font-weight: 100;
 		line-height: 1.5em;
 	}
 
